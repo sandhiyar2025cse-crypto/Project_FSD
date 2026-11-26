@@ -1,0 +1,56 @@
+.hero-container {
+  text-align: center;
+  padding: 50px 100px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.hero-title {
+  font-size: 60px;
+  color: #f52d50;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.hero-heading {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.hero-heading span {
+  color: #ed6680;
+  font-style: italic;
+}
+
+.hero-description {
+  color: #718096;
+  font-size: 21px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.learning-btn,
+.demo-btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 7px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.learning-btn {
+  background-color: #e8e8e8;
+  color: black;
+}
+
+.demo-btn {
+  background-color: #f52d50;
+  color: white;
+}
